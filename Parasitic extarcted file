@@ -1,0 +1,72 @@
+Note: Compatibility modes selected: hs a
+
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+
+Circuit: * post-layout current mirror testbench
+
+option SCALE: Scale is set to 1e-06 for instance and model parameters
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+en1 = 1.800000e+00
+en2 = 1.800000e+00
+en3 = 1.800000e+00
+iout = 1.000000e+00
+m.xcm.x0.msky130_fd_pr__nfet_01v8#body = 1.251103e-11
+m.xcm.x0.msky130_fd_pr__nfet_01v8#dbody = 3.127756e-11
+m.xcm.x0.msky130_fd_pr__nfet_01v8#sbody = 6.255513e-12
+m.xcm.x1.msky130_fd_pr__nfet_01v8#body = 2.502341e-11
+m.xcm.x1.msky130_fd_pr__nfet_01v8#dbody = 3.754187e-11
+m.xcm.x1.msky130_fd_pr__nfet_01v8#sbody = 3.752835e-11
+m.xcm.x2.msky130_fd_pr__nfet_01v8#body = 1.250832e-11
+m.xcm.x2.msky130_fd_pr__nfet_01v8#dbody = 3.127081e-11
+m.xcm.x2.msky130_fd_pr__nfet_01v8#sbody = 6.254162e-12
+m.xcm.x3.msky130_fd_pr__nfet_01v8#body = 1.251103e-11
+m.xcm.x3.msky130_fd_pr__nfet_01v8#dbody = 3.127756e-11
+m.xcm.x3.msky130_fd_pr__nfet_01v8#sbody = 6.255513e-12
+m.xcm.x4.msky130_fd_pr__nfet_01v8#body = 2.502003e-11
+m.xcm.x4.msky130_fd_pr__nfet_01v8#dbody = 3.754018e-11
+m.xcm.x4.msky130_fd_pr__nfet_01v8#sbody = 3.751991e-11
+m.xcm.x5.msky130_fd_pr__nfet_01v8#body = 2.502611e-11
+m.xcm.x5.msky130_fd_pr__nfet_01v8#dbody = 3.754322e-11
+m.xcm.x5.msky130_fd_pr__nfet_01v8#sbody = 3.753510e-11
+m.xcm.x6.msky130_fd_pr__nfet_01v8#body = 1.251103e-11
+m.xcm.x6.msky130_fd_pr__nfet_01v8#dbody = 3.127756e-11
+m.xcm.x6.msky130_fd_pr__nfet_01v8#sbody = 6.255513e-12
+m.xcm.x7.msky130_fd_pr__nfet_01v8#body = 1.250832e-11
+m.xcm.x7.msky130_fd_pr__nfet_01v8#dbody = 3.127081e-11
+m.xcm.x7.msky130_fd_pr__nfet_01v8#sbody = 6.254162e-12
+m.xcm.x8.msky130_fd_pr__nfet_01v8#body = 2.458042e-23
+m.xcm.x8.msky130_fd_pr__nfet_01v8#dbody = 6.145106e-23
+m.xcm.x8.msky130_fd_pr__nfet_01v8#sbody = 1.229021e-23
+m.xcm.x9.msky130_fd_pr__nfet_01v8#body = 1.251103e-11
+m.xcm.x9.msky130_fd_pr__nfet_01v8#dbody = 3.127756e-11
+m.xcm.x9.msky130_fd_pr__nfet_01v8#sbody = 6.255513e-12
+m.xcm.x10.msky130_fd_pr__nfet_01v8#body = 1.250495e-11
+m.xcm.x10.msky130_fd_pr__nfet_01v8#dbody = 3.126237e-11
+m.xcm.x10.msky130_fd_pr__nfet_01v8#sbody = 6.252474e-12
+v1#branch = -1.37485e-11
+v_en1#branch = 0.000000e+00
+v_en2#branch = 0.000000e+00
+v_en3#branch = 0.000000e+00
+v_vgnd#branch = -1.37485e-11
+v_vpwr#branch = 0.000000e+00
+vbias = 1.727994e-12
+vgnd = 0.000000e+00
+vpwr = 1.800000e+00
+xcm.a_220_44# = 9.999998e-01
+xcm.a_440_44# = 9.999997e-01
+xcm.a_800_44# = 9.999996e-01
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 181
+
+Warning: command 'plot' is not available during batch simulation, ignored!
+    You may use Gnuplot instead.
+
+Note: Simulation executed from .control section 
