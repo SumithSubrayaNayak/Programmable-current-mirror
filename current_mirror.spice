@@ -1,0 +1,12 @@
+.control
+set run = 1
+let num_runs = 20
+
+while $run <= $num_runs
+  reset
+  dc V1 1.0 1.0 1
+  let i_out_$run = i(V1)
+  print "Running Monte Carlo iteration: " $run
+  let run = $run + 1
+end
+.endc

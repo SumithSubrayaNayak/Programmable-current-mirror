@@ -1,0 +1,11 @@
+* Schematic netlist for LVS: binary-weighted programmable current mirror
+* W=1 L=0.15 for all devices. M1/M5/M6/M7 are m=1; M2/M3/M4 are m=1/2/4.
+.subckt current_mirror vbias en1 en2 en3 gnd iout
+XM1 vbias vbias gnd gnd sky130_fd_pr__nfet_01v8 w=1 l=0.15 m=1
+XM2 n1 vbias gnd gnd sky130_fd_pr__nfet_01v8 w=1 l=0.15 m=1
+XM3 n2 vbias gnd gnd sky130_fd_pr__nfet_01v8 w=1 l=0.15 m=2
+XM4 n4 vbias gnd gnd sky130_fd_pr__nfet_01v8 w=1 l=0.15 m=4
+XM5 iout en1 n1 gnd sky130_fd_pr__nfet_01v8 w=1 l=0.15 m=1
+XM6 iout en2 n2 gnd sky130_fd_pr__nfet_01v8 w=1 l=0.15 m=1
+XM7 iout en3 n4 gnd sky130_fd_pr__nfet_01v8 w=1 l=0.15 m=1
+.ends
